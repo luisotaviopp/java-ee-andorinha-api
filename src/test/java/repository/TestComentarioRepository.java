@@ -121,15 +121,6 @@ public class TestComentarioRepository {
 			assertThat(t.getTweet().getUsuario()).isNotNull();
 		});
 	}
-	
-	@Test
-	public void testa_listar_todos_os_comentarios_do_usuario_4() throws ErroAoConectarNaBaseException, ErroAoConsultarBaseException {
-		ComentarioSeletor seletor = new ComentarioSeletor();
-		seletor.setIdUsuario( 4 );
-		
-		List<Comentario> comentarios = this.comentarioRepository.pesquisar( seletor );
-		
-	}
 
 	@Test
 	public void testa_pesquisar_comentarios_filtrado_por_tweet() throws ErroAoConectarNaBaseException, ErroAoConsultarBaseException {

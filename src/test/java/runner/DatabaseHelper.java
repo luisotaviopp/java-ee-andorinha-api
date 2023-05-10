@@ -220,7 +220,6 @@ public class DatabaseHelper {
 					continue;
 				}
 
-				//TODO: sintaxe de procedure Oracle
 				if (line.startsWith("CREATE FUNCTION")){
 					isFunction = true;
 					sbFunction.append(line);

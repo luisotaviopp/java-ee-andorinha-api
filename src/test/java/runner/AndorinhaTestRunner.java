@@ -12,7 +12,6 @@ public class AndorinhaTestRunner  extends EJBContainerRunner {
 
     public AndorinhaTestRunner(Class<?> klass) throws InitializationError {
         super(klass);
-        // TODO Auto-generated constructor stub
     }
 
     @Override

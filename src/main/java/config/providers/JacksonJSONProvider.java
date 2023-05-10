@@ -35,8 +35,6 @@ public class JacksonJSONProvider extends com.fasterxml.jackson.jaxrs.json.Jackso
     }
 }
 
-//TODO customizar os serializadores??
-
 class JsonDateDeserializer extends JsonDeserializer<Date> {
 
     @Override
