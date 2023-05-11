@@ -44,7 +44,6 @@ public class UsuarioService {
 		this.usuarioRepository.atualizar(usuario);
 	}
 	
-	
 	@GET
 	@Path("/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
@@ -59,7 +58,6 @@ public class UsuarioService {
 		this.usuarioRepository.remover(id);
 	}
 	
-	
 	@POST
 	@Path("/pesquisar")
 	@Consumes(MediaType.APPLICATION_JSON)
@@ -67,5 +65,4 @@ public class UsuarioService {
 	public List<Usuario> pesquisar( UsuarioSeletor seletor ){
 		return this.usuarioRepository.pesquisar(seletor);
 	}
-	
 }

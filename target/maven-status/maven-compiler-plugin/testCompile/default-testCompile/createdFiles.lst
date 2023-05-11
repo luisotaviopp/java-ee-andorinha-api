@@ -1,0 +1,9 @@
+repository/TestComentarioRepository.class
+runner/TestRunnerStartingDecorator.class
+runner/DatabaseHelper.class
+repository/TestUsuarioRepository.class
+repository/TestTweetRepository.class
+runner/TestRunnerOpenEjbConfiguration.class
+runner/AndorinhaTestRunner.class
+util/TestConstants.class
+alternative/AlternativeProducers.class

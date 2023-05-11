@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="repository.TestUsuarioRepository" time="0.277" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.362-b09"/>
+    <property name="user.country.format" value="BR"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/luis/Documents/gbr/java-ee-andorinha-api"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/luis/Documents/gbr/java-ee-andorinha-api"/>
+    <property name="java.runtime.version" value="1.8.0_362-8u362-ga-0ubuntu1~22.04-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.19.0-41-generic"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/luis"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="luis"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install -f /home/luis/Documents/gbr/java-ee-andorinha-api/pom.xml"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="user.language.format" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_362"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="repository.TestUsuarioRepository" name="repository.TestUsuarioRepository" time="0.277">
+    <error message="org.apache.openejb.OpenEJBException: Creating application failed: /home/luis/Documents/gbr/java-ee-andorinha-api: org/hibernate/jpa/HibernatePersistenceProvider has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0" type="org.apache.openejb.OpenEjbContainer$AssembleApplicationException">org.apache.openejb.OpenEjbContainer$AssembleApplicationException: org.apache.openejb.OpenEJBException: Creating application failed: /home/luis/Documents/gbr/java-ee-andorinha-api: org/hibernate/jpa/HibernatePersistenceProvider has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at org.apache.openejb.OpenEjbContainer$Provider.createAppContext(OpenEjbContainer.java:438)
+	at org.apache.openejb.OpenEjbContainer$Provider.createEJBContainer(OpenEjbContainer.java:282)
+	at javax.ejb.embeddable.EJBContainer.createEJBContainer(EJBContainer.java:56)
+	at runner.TestRunnerStartingDecorator.before(TestRunnerStartingDecorator.java:84)
+	at org.apache.openejb.junit.jee.statement.DecoratingStatement.evaluate(DecoratingStatement.java:30)
+	at org.apache.openejb.junit.jee.statement.DecoratingStatement.evaluate(DecoratingStatement.java:32)
+	at org.apache.openejb.junit.jee.statement.DecoratingStatement.evaluate(DecoratingStatement.java:32)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.apache.openejb.OpenEJBException: Creating application failed: /home/luis/Documents/gbr/java-ee-andorinha-api: org/hibernate/jpa/HibernatePersistenceProvider has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at org.apache.openejb.assembler.classic.Assembler.createApplication(Assembler.java:1107)
+	at org.apache.openejb.assembler.classic.Assembler.createApplication(Assembler.java:762)
+	at org.apache.openejb.OpenEjbContainer$Provider.createAppContext(OpenEjbContainer.java:434)
+	... 19 more
+Caused by: java.lang.UnsupportedClassVersionError: org/hibernate/jpa/HibernatePersistenceProvider has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at org.apache.openejb.assembler.classic.EntityManagerFactoryCallable.call(EntityManagerFactoryCallable.java:84)
+	at org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createDelegate(ReloadableEntityManagerFactory.java:134)
+	at org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.&lt;init&gt;(ReloadableEntityManagerFactory.java:105)
+	at org.apache.openejb.assembler.classic.PersistenceBuilder.createEntityManagerFactory(PersistenceBuilder.java:157)
+	at org.apache.openejb.assembler.classic.Assembler.createApplication(Assembler.java:927)
+	... 21 more
+</error>
+    <system-err>mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: ********************************************************************************
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: OpenEJB https://tomee.apache.org/
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Startup: Wed May 10 15:51:36 BRT 2023
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Copyright 1999-2023 (C) Apache TomEE Project, All Rights Reserved.
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Version: 8.0.14
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Build date: 20230117
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Build time: 01:46
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: ********************************************************************************
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: openejb.home = /home/luis/Documents/gbr/java-ee-andorinha-api
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: openejb.base = /home/luis/Documents/gbr/java-ee-andorinha-api
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@47eaca72
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Succeeded in installing singleton service
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Using &apos;javax.ejb.embeddable.EJBContainer=true&apos;
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Cannot find the configuration file [conf/openejb.xml].  Will attempt to create one for the beans deployed.
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Configuring Service(id=Default Security Service, type=SecurityService, provider-id=Default Security Service)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Configuring Service(id=andorinhaDS, type=Resource, provider-id=Default JDBC Database)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating SecurityService(id=Default Security Service)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Using &apos;java.security.auth.login.config=jar:file:/home/luis/.m2/repository/org/apache/tomee/openejb-core/8.0.14/openejb-core-8.0.14.jar!/login.config&apos;
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating Resource(id=andorinhaDS, aliases=java:andorinhaDS)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Using &apos;openejb.deployments.classpath.include=.*/target/.*classes.*|.*openejb-core.*&apos;
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Using &apos;openejb.deployments.classpath.exclude=.*ejb-cdi-unit.*&apos;
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Found EjbModule in classpath: /home/luis/Documents/gbr/java-ee-andorinha-api/target/test-classes
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Found EjbModule in classpath: /home/luis/Documents/gbr/java-ee-andorinha-api/target/classes
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Found EjbModule in classpath: /home/luis/.m2/repository/org/apache/tomee/openejb-core/8.0.14/openejb-core-8.0.14.jar
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Beginning load: /home/luis/Documents/gbr/java-ee-andorinha-api/target/test-classes
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Beginning load: /home/luis/Documents/gbr/java-ee-andorinha-api/target/classes
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Beginning load: /home/luis/.m2/repository/org/apache/tomee/openejb-core/8.0.14/openejb-core-8.0.14.jar
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Configuring enterprise application: /home/luis/Documents/gbr/java-ee-andorinha-api
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Auto-deploying ejb ComentarioRepository: EjbDeployment(deployment-id=ComentarioRepository)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Auto-deploying ejb TweetRepository: EjbDeployment(deployment-id=TweetRepository)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Auto-deploying ejb UsuarioRepository: EjbDeployment(deployment-id=UsuarioRepository)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Auto-creating a container for bean java-ee-andorinha-api_test.Comp1163216403: Container(type=MANAGED, id=Default Managed Container)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating Container(id=Default Managed Container)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Using directory /tmp for stateful session passivation
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Auto-creating a container for bean ComentarioRepository: Container(type=STATELESS, id=Default Stateless Container)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating Container(id=Default Stateless Container)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Auto-linking resource-ref &apos;java:comp/env/andorinhaDS&apos; in bean ComentarioRepository to Resource(id=andorinhaDS)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Auto-linking resource-ref &apos;java:comp/env/andorinhaDS&apos; in bean TweetRepository to Resource(id=andorinhaDS)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Auto-linking resource-ref &apos;java:comp/env/andorinhaDS&apos; in bean UsuarioRepository to Resource(id=andorinhaDS)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Auto-linking resource-ref &apos;java:comp/env/andorinhaDS&apos; in bean java-ee-andorinha-api.Comp747833043 to Resource(id=andorinhaDS)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Configuring PersistenceUnit(name=primary, provider=org.hibernate.jpa.HibernatePersistenceProvider)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Auto-creating a Resource with id &apos;andorinhaDSNonJta&apos; of type &apos;DataSource&apos; for &apos;primary&apos;.
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Configuring Service(id=andorinhaDSNonJta, type=Resource, provider-id=andorinhaDS)
+mai 10, 2023 3:51:36 PM org.apache.openejb.util.LogStreamAsync run
+INFO: Creating Resource(id=andorinhaDSNonJta)
+</system-err>
+  </testcase>
+</testsuite>
